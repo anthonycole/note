@@ -1,0 +1,34 @@
+/*
+Theme Name: Note
+Author: Anthony Cole
+*/
+
+@font-face {font-family: 'Otari-Bold-Limited';src: url('webfonts/1D588D_0_0.eot');src: url('webfonts/1D588D_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/1D588D_0_0.woff') format('woff'),url('webfonts/1D588D_0_0.ttf') format('truetype');}
+
+
+.infinity, #site-title a, .entry-title a, #sidebar h2 {font-family: 'Otari-Bold-Limited';}
+#site-title a {font-size: 32px; color: #000; text-decoration: none;}
+#site-description {display: none;}
+
+.henry .author {display: none;}
+.entry-title a {color: #000; font-size: 24px; color: #000; text-decoration: none;}
+
+body {font-family: 'Cambria', 'Georgia', sans-serif;}
+
+.alignleft {float: left;}
+.alignright {float: right;}
+.aligncenter {text-align: center;}
+
+.hentry {margin-bottom: 40px;}
+.hentry {border-bottom: 1px solid #CCC;}
+.hentry .entry-title {margin: 5px 0;}
+.hentry .entry-meta {color: #999; margin: 0;}
+.header {margin-top: 40px;}
+
+#access {margin-top: 50px;}
+#access li a {padding-left: 20px;}
+#access li {float: left; list-style: none;}
+#access a {text-transform: lowercase; color: #000; text-decoration: none;}
+
+#listening {list-style: none; margin-left: 0;}
+#content {padding-top: 40px;}
