@@ -5,7 +5,7 @@ Author: Anthony Cole
 
 @font-face {font-family: 'Otari-Bold-Limited';src: url('webfonts/1D588D_0_0.eot');src: url('webfonts/1D588D_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/1D588D_0_0.woff') format('woff'),url('webfonts/1D588D_0_0.ttf') format('truetype');}
 
-.infinity, #site-title a, .entry-title a, #sidebar h2 {font-family: 'Otari-Bold-Limited';}
+.infinity, #site-title a, .entry-title a, #sidebar h2 {font-family: 'Otari-Bold-Limited'; font-weight: normal;}
 #site-title a {font-size: 32px; color: #000; text-decoration: none;}
 #site-description {display: none;}
 
