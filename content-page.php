@@ -3,6 +3,5 @@
 	<section class="entry-content" >
 		<?php the_content(); ?>
 	</section>
-	<p class="category">&fnof; <?php the_category(' '); ?></p>
 	<p class="aligncenter infinity">&infin;</p>
 </article>
