@@ -3,7 +3,7 @@
 		<div class="grid-7">
 		<?php while( have_posts() ) : the_post(); ?>
 		
-			<?php get_template_part('content'); ?>
+			<?php get_template_part('page'); ?>
 		
 		<?php endwhile; ?>
 		</div>
