@@ -43,6 +43,6 @@
 		</div>
 	</div>
 	<div id="about" class="grid-7">
-		<p>Hey there, My name's Anthony. How are you? I'm a Melbourne based guy who works on the web - you can talk to me on <a href="http://twitter.com/anthonycole">Twitter</a>, add me on <a href="http://linkedin.com/">LinkedIn</a>, or subscribe to my (occasinal) <a href="<?php echo bloginfo('rss2_url'); ?>">literature</a>.</p>
+		<p>Hey there, My name's Anthony. How are you? I'm a Melbourne based guy who works on the web - you can talk to me on <a href="http://twitter.com/anthonycole">Twitter</a>, add me on <a href="http://au.linkedin.com/pub/anthony-cole/32/435/9b1">LinkedIn</a>, or subscribe to my (occasinal) <a href="<?php echo bloginfo('rss2_url'); ?>">literature</a>.</p>
 		</div>
 	</div>
