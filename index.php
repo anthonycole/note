@@ -1,7 +1,5 @@
 <?php get_header(); ?>
-
 	<div id="content" class="grids">
-			
 		<div class="grid-7">
 		<?php while( have_posts() ) : the_post(); ?>
 		

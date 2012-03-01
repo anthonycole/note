@@ -1,7 +1,7 @@
 	<?php wp_footer(); ?>
 	
 	<footer id="colophon">
-		<p>This is my inside story</p>
+		<p>Made with things. And <a href="http://wordpress.org">WordPress</a></p>
 	</footer>
 	</body>
 	
