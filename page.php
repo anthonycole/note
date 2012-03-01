@@ -1,11 +1,8 @@
 <?php get_header(); ?>
 	<div id="content" class="grids">
 		<div class="grid-7">
-		<?php while( have_posts() ) : the_post(); ?>
-		
-			<?php get_template_part('page'); ?>
-		
-		<?php endwhile; ?>
+			<?php the_post(); ?>
+			<?php get_template_part('content', 'page'); ?>
 		</div>
 		
 		<?php get_sidebar(); ?>
