@@ -29,7 +29,7 @@ body {font-family: 'Cambria', 'Georgia', sans-serif;}
 #access li {float: left; list-style: none;}
 #access a {text-transform: lowercase; color: #000; text-decoration: none;}
 
-#listening {list-style: none; margin-left: 0;}
+#talking {list-style: none; margin-left: 0;}
 #content {padding-top: 40px;}
 
 #sidebar a {color: #333;}

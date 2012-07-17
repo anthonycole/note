@@ -2,8 +2,14 @@
 	<section id="sidebar">
 		<aside id="talking">
 			<h2>Talking</h2>
-			<ul id="listening" class="widget">
-				<?php while(have_posts()) : the_post(); ?>
+			<ul id="talking" class="widget">
+				<?php 
+				$args = array(
+					'posts_per_page' => '10'
+				);
+				?>
+				<?php $query = new WP_Query($args); ?>
+				<?php while($query->have_posts()) : $query->the_post(); ?>
 				<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
 				<?php endwhile; ?>
 			</ul>
