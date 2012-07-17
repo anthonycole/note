@@ -35,7 +35,7 @@ body {font-family: 'Cambria', 'Georgia', sans-serif;}
 #sidebar a {color: #333;}
 
 #about a {display: inline-block; background: #6cb8f2; padding: 2px 4px; color: #f1f7fc; border-radius: 3px;}
-a {color: #999; text-decoration: none;}
+a {color: #666; text-decoration: none;}
 
 #about a {margin-bottom: 4px;}
 #colophon a {color: #6cb8f2;}
