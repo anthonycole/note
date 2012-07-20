@@ -44,7 +44,7 @@
 			  }
 			}).render().setUser('anthonycole').start();
 			</script>
-		</div>
+		</aside>
 		<aside id="speaking" class="widget">
 			<h2>Speaking at</h2>
 			<a href="http://2012.sydney.wordcamp.org/" title="WordCamp Sydney July 21-22, 2012"><img alt="WordCamp Sydney July 21-22, 2012" src="http://2012.sydney.wordcamp.org/files/2012/05/WordCampSydneySpeaker-200px.png" /></a>
