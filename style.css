@@ -3,39 +3,108 @@ Theme Name: Note
 Author: Anthony Cole
 */
 
-@font-face {font-family: 'Otari-Bold-Limited';src: url('webfonts/1D588D_0_0.eot');src: url('webfonts/1D588D_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/1D588D_0_0.woff') format('woff'),url('webfonts/1D588D_0_0.ttf') format('truetype');}
+@font-face {
+	font-family: 'Otari-Bold-Limited';
+	src: url('webfonts/1D588D_0_0.eot');
+	src: url('webfonts/1D588D_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/1D588D_0_0.woff') format('woff'),url('webfonts/1D588D_0_0.ttf') format('truetype');
+}
 
-.infinity, #site-title a, .entry-title a, #sidebar h2 {font-family: 'Otari-Bold-Limited'; font-weight: normal;}
-#site-title a {font-size: 32px; color: #000; text-decoration: none;}
-#site-description {display: none;}
+.infinity, #site-title a, .entry-title a, #sidebar h2 {
+	font-family: 'Otari-Bold-Limited'; 
+	font-weight: normal;
+}
 
-.henry .author {display: none;}
-.entry-title a {color: #000; font-size: 24px; color: #000; text-decoration: none;}
+#site-title a {
+	font-size: 32px; color: #000; text-decoration: none;
+}
 
-body {font-family: 'Open Sans', sans-serif;}
+#site-description {
+	display: none;
+}
 
-.alignleft {float: left;}
-.alignright {float: right;}
-.aligncenter {text-align: center;}
+.henry .author {
+	display: none;
+}
 
-.hentry {margin-bottom: 40px;}
-.hentry {border-bottom: 1px solid #CCC;}
-.hentry .entry-title {margin: 5px 0;}
-.hentry .entry-meta {color: #999; margin: 0;}
-.header {margin-top: 40px;}
+.entry-title a {
+	color: #000; 
+	font-size: 24px; 
+	color: #000; 
+	text-decoration: none;
+}
 
-#access {margin-top: 50px;}
-#access li a {padding-left: 20px;}
-#access li {float: left; list-style: none;}
-#access a {text-transform: lowercase; color: #000; text-decoration: none;}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
 
-#talking {list-style: none; margin-left: 0;}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+.aligncenter {
+	text-align: center;
+}
 
+.hentry {
+	margin-bottom: 40px;
+}
+.hentry {
+	border-bottom: 1px solid #CCC;
+}
+.hentry .entry-title {
+	margin: 5px 0;
+}
+.hentry .entry-meta {
+	color: #999; 
+	margin: 0;
+}
+.header {
+	margin-top: 40px;
+}
 
-#sidebar a {color: #333;}
+#access {
+	margin-top: 50px;
+}
+#access li a {
+	padding-left: 20px;
+}
+#access li {
+	float: left; 
+	list-style: none;
+}
 
-#about a {display: inline-block; background: #6cb8f2; padding: 2px 4px; color: #f1f7fc; border-radius: 3px;}
-a {color: #666; text-decoration: none;}
+#access a {
+	text-transform: lowercase; 
+	color: #000; 
+	text-decoration: none;
+}
 
-#about a {margin-bottom: 4px;}
-#colophon a {color: #6cb8f2;}
+#talking {
+	list-style: none; margin-left: 0;
+}
+
+#sidebar a {
+	color: #333;
+}
+
+#about a {
+	display: inline-block; 
+	background: #6cb8f2; 
+	padding: 2px 4px; color: #f1f7fc; 
+	border-radius: 3px;
+}
+
+a {
+	color: #666; 
+	text-decoration: none;
+}
+
+#about a {
+	margin-bottom: 4px;
+}
+
+#colophon a {
+	color: #6cb8f2;
+}
