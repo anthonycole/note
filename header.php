@@ -23,7 +23,7 @@
 
 	</head>
 
-	<body lang="en" class="wrapper">
+	<body lang="en" <?php echo body_class('wrapper'); ?>>
 	
 	<div class="grids">
 		<div class="grid-6"> 
