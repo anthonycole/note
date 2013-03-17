@@ -33,16 +33,11 @@
 		</div>
 		<div class="grid-5">
 			<nav id="access">
-				<ul>
-					<li><a href="/">Home</a></li>
-					<li><a href="/about/">Me</a></li>
-					<li><a href="/plugins/">Plugins</a></li>
-					<li><a href="/contact/">Contact</a></li>
-				</ul>
+				<?php wp_nav_menu(); ?>
 			</nav>
 		</div>
 	</div>
 	<div id="about" class="grid-7">
-		<p>Hey there, My name's Anthony. How are you? I'm a Melbourne based guy who works on the web - you can talk to me on <a href="http://twitter.com/anthonycole">Twitter</a>, add me on <a href="http://au.linkedin.com/pub/anthony-cole/32/435/9b1">LinkedIn</a>, or subscribe to my (occasinal) <a href="<?php echo bloginfo('rss2_url'); ?>">literature</a>.</p>
+		<p><?php echo note_option('header_text'); ?></p>
 		</div>
 	</div>
