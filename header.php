@@ -13,11 +13,14 @@
 
 		<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>"/>
 
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		
 		<?php wp_head(); ?>
+
 	</head>
 
 	<body lang="en" class="wrapper">
