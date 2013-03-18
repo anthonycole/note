@@ -36,6 +36,16 @@ add_action( 'after_setup_theme', 'note_options_init', 5 );
 // Gets the value for a requested option.
 function note_option( $option_name ) {
     global $note_options;
-
     return $note_options->get_value( $option_name );
 }
+
+function note_sidebar_init() {
+    register_sidebar(array(
+        'name' => 'Sidebar',
+        'id'   => 'right_sidebar',
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => '</aside>',
+    ));
+}
+
+add_action( 'widgets_init', 'note_sidebar_init' );
