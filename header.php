@@ -21,6 +21,16 @@
 		
 		<?php wp_head(); ?>
 
+		<style type="text/css">
+		<?php 
+		$users = get_users();
+		foreach ($users as $user ) : ?>
+			.avatar-<?php echo $user->user_login; ?> {
+				background: url(<?php echo note_get_avatar($user->user_email); ?>);
+			}
+		<?php endforeach; ?>
+		</style>
+
 	</head>
 
 	<body lang="en" <?php echo body_class('wrapper'); ?>>

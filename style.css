@@ -111,3 +111,17 @@ a {
 #colophon a {
 	color: #6cb8f2;
 }
+
+.content {
+	float: right; 
+	width: 540px;
+}
+
+.post .avatar {
+	margin-left: -100px;
+	background-size: 100%;
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	float: left;
+}
