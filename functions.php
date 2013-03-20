@@ -15,6 +15,7 @@ function note_options_init() {
     // Setup the option sections
     $note_options->add_section( 'header', __( 'Header', 'note' ), 200 );
     $note_options->add_section( 'comments', __( 'Comments', 'note' ), 201 ); // 200 is priority of section in the customizer
+    $note_options->add_section( 'footer', __( 'Footer Content', 'note' ), 201 ); // 200 is priority of section in the customizer
 
     /* Section One
      * ------------------------------------------------------------------ */
@@ -29,6 +30,12 @@ function note_options_init() {
         ->default_value( '<script></script>' )
         ->label( __( 'Comment Javascript', 'mytheme' ) )
         ->description( __( 'Enter The Javascript to use for commenting - EG disqus, etc.', 'note' ) );
+
+
+    $note_options->add_option( 'footer_text', 'text', 'footer' )
+        ->default_value( '&copy; 2013 residen.se. We like you.' )
+        ->label( __( 'Comment Javascript', 'mytheme' ) )
+        ->description( __( '', 'note' ) );
 }
 
 add_action( 'after_setup_theme', 'note_options_init', 5 );
