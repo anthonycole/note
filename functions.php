@@ -33,7 +33,7 @@ function note_options_init() {
 
 
     $note_options->add_option( 'footer_text', 'text', 'footer' )
-        ->default_value( '&copy; 2013 residen.se. We like you.' )
+        ->default_value( "Made with Love and WordPress at <a href='http://thefactory.io'>the factory</a> in Melbourne. <br /><br />Andy Warhol once said: Don't pay any attention to what they write about you. Just measure it in inches." )
         ->label( __( 'Comment Javascript', 'mytheme' ) )
         ->description( __( '', 'note' ) );
 }

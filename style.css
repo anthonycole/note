@@ -108,6 +108,10 @@ a {
 	margin-bottom: 4px;
 }
 
+#colophon {
+	font-size: 13px;
+}
+
 #colophon a {
 	color: #6cb8f2;
 }
